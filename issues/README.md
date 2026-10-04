@@ -6,32 +6,32 @@
 
 | # | タイトル | ファイル |
 | --- | --- | --- |
-| 001 | タスクの追加 | [001-add-task.md](./001-add-task.md) |
-| 002 | タスク一覧表示と空状態 | [002-task-list.md](./002-task-list.md) |
-| 003 | タスクの完了 / 完了解除 | [003-complete-toggle.md](./003-complete-toggle.md) |
-| 004 | タスクの削除 | [004-delete-task.md](./004-delete-task.md) |
-| 005 | タスクの編集(インライン) | [005-edit-task.md](./005-edit-task.md) |
-| 006 | フィルタ(すべて / 未完了 / 完了済み) | [006-filter.md](./006-filter.md) |
-| 007 | 完了済みの一括削除 | [007-clear-completed.md](./007-clear-completed.md) |
-| 008 | localStorage による永続化 | [008-localstorage.md](./008-localstorage.md) |
-| 009 | UI / デザイン(ダークモード対応) | [009-ui-darkmode.md](./009-ui-darkmode.md) |
-| 010 | アクセシビリティとキーボード操作 | [010-a11y.md](./010-a11y.md) |
+| 001 | 盤面とピース定義 | [001-board-tetromino.md](./001-board-tetromino.md) |
+| 002 | 落下(ゲームループ) | [002-game-loop.md](./002-game-loop.md) |
+| 003 | 移動と回転 | [003-move-rotate.md](./003-move-rotate.md) |
+| 004 | ソフトドロップ / ハードドロップ | [004-soft-hard-drop.md](./004-soft-hard-drop.md) |
+| 005 | ライン消しとアニメーション | [005-line-clear.md](./005-line-clear.md) |
+| 006 | スコアとレベル(速度アップ) | [006-score-level.md](./006-score-level.md) |
+| 007 | 次のピースとホールド | [007-next-hold.md](./007-next-hold.md) |
+| 008 | ポーズとゲームオーバー | [008-pause-gameover.md](./008-pause-gameover.md) |
+| 009 | ハイスコアの永続化 | [009-highscore.md](./009-highscore.md) |
+| 010 | UI / デザインとアクセシビリティ | [010-ui-a11y.md](./010-ui-a11y.md) |
 
 ## 将来の機能(§8 ロードマップに対応)
 
 | # | タイトル | ファイル |
 | --- | --- | --- |
-| 011 | タスクの優先度と期限日 | [011-priority-due-date.md](./011-priority-due-date.md) |
-| 012 | ドラッグ&ドロップによる並び替え | [012-reorder-dnd.md](./012-reorder-dnd.md) |
-| 013 | サブタスク | [013-subtasks.md](./013-subtasks.md) |
-| 014 | タグと検索 | [014-tags-search.md](./014-tags-search.md) |
-| 015 | カテゴリ / プロジェクト | [015-categories.md](./015-categories.md) |
-| 016 | バックエンド API 同期 | [016-backend-sync.md](./016-backend-sync.md) |
-| 017 | ユーザー認証と共有 | [017-auth-sharing.md](./017-auth-sharing.md) |
-| 018 | 通知とリマインダー | [018-reminders.md](./018-reminders.md) |
-| 019 | 統計・振り返りビュー | [019-stats.md](./019-stats.md) |
-| 020 | キーボードショートカット・Markdown・画像添付 | [020-shortcuts-markdown-image.md](./020-shortcuts-markdown-image.md) |
-| 021 | データのエクスポート / インポート | [021-export-import.md](./021-export-import.md) |
+| 011 | ゴーストピース | [011-ghost-piece.md](./011-ghost-piece.md) |
+| 012 | ウォールキック | [012-wall-kick.md](./012-wall-kick.md) |
+| 013 | 反時計回り回転とキーカスタマイズ | [013-ccw-keys.md](./013-ccw-keys.md) |
+| 014 | サウンド / BGM | [014-sound.md](./014-sound.md) |
+| 015 | コンボ / スペシャルボーナス | [015-combo-bonus.md](./015-combo-bonus.md) |
+| 016 | 統計と結果画面 | [016-stats.md](./016-stats.md) |
+| 017 | 難易度モード | [017-difficulty-modes.md](./017-difficulty-modes.md) |
+| 018 | オンラインランキング | [018-leaderboard.md](./018-leaderboard.md) |
+| 019 | モバイル / タッチ操作 | [019-touch-mobile.md](./019-touch-mobile.md) |
+| 020 | DAS / ARR 入力カスタマイズ | [020-das-arr.md](./020-das-arr.md) |
+| 021 | テーマとカラーカスタマイズ | [021-themes.md](./021-themes.md) |
 | 022 | 多言語対応(日本語 / 英語) | [022-i18n.md](./022-i18n.md) |
 
 ## Issue の書式
