@@ -1,7 +1,8 @@
-# 014: サウンド / BGM
+# 015: サウンド / BGM
 
 **ラベル**: feature, roadmap
-**関連仕様**: spec.md §8.4
+**ステータス**: ⬜ 未着手
+**関連仕様**: spec.md §8.5
 
 ## 概要
 効果音と BGM を Web Audio API で実装する。

@@ -1,38 +1,49 @@
 # Issues 一覧
 
-`spec.md` から分解した issue 一覧です。
+`spec.md` から分解した issue 一覧です。**issue の番号 = 実装順**です(小さい番号ほど先に実装する)。
+
+## 進捗サマリー
+
+| 区間 | 範囲 | 完了 | 進捗率 |
+| --- | --- | --- | --- |
+| v1 実装 | 001–010 | 0 / 10 | 0% |
+| ロードマップ | 011–022 | 0 / 12 | 0% |
+| **合計** | 001–022 | **0 / 22** | **0%** |
+
+**ステータスの表記**: ⬜ 未着手 → 🔄 実装中 → ✅ 完了
+(ステータス変更・要求チェックの更新・このサマリー表の更新をセットで行う)
 
 ## v1 実装(§2–§5 に対応)
 
-| # | タイトル | ファイル |
-| --- | --- | --- |
-| 001 | 盤面とピース定義 | [001-board-tetromino.md](./001-board-tetromino.md) |
-| 002 | 落下(ゲームループ) | [002-game-loop.md](./002-game-loop.md) |
-| 003 | 移動と回転 | [003-move-rotate.md](./003-move-rotate.md) |
-| 004 | ソフトドロップ / ハードドロップ | [004-soft-hard-drop.md](./004-soft-hard-drop.md) |
-| 005 | ライン消しとアニメーション | [005-line-clear.md](./005-line-clear.md) |
-| 006 | スコアとレベル(速度アップ) | [006-score-level.md](./006-score-level.md) |
-| 007 | 次のピースとホールド | [007-next-hold.md](./007-next-hold.md) |
-| 008 | ポーズとゲームオーバー | [008-pause-gameover.md](./008-pause-gameover.md) |
-| 009 | ハイスコアの永続化 | [009-highscore.md](./009-highscore.md) |
-| 010 | UI / デザインとアクセシビリティ | [010-ui-a11y.md](./010-ui-a11y.md) |
+| # | ステータス | タイトル | ファイル |
+| --- | --- | --- | --- |
+| 001 | ⬜ 未着手 | 盤面とピース定義 | [001-board-tetromino.md](./001-board-tetromino.md) |
+| 002 | ⬜ 未着手 | 落下(ゲームループ) | [002-game-loop.md](./002-game-loop.md) |
+| 003 | ⬜ 未着手 | 移動と回転 | [003-move-rotate.md](./003-move-rotate.md) |
+| 004 | ⬜ 未着手 | ソフトドロップ / ハードドロップ | [004-soft-hard-drop.md](./004-soft-hard-drop.md) |
+| 005 | ⬜ 未着手 | ライン消しとアニメーション | [005-line-clear.md](./005-line-clear.md) |
+| 006 | ⬜ 未着手 | スコアとレベル(速度アップ) | [006-score-level.md](./006-score-level.md) |
+| 007 | ⬜ 未着手 | 次のピースとホールド | [007-next-hold.md](./007-next-hold.md) |
+| 008 | ⬜ 未着手 | ポーズとゲームオーバー | [008-pause-gameover.md](./008-pause-gameover.md) |
+| 009 | ⬜ 未着手 | ハイスコアの永続化 | [009-highscore.md](./009-highscore.md) |
+| 010 | ⬜ 未着手 | UI / デザインとアクセシビリティ | [010-ui-a11y.md](./010-ui-a11y.md) |
 
 ## 将来の機能(§8 ロードマップに対応)
 
-| # | タイトル | ファイル |
-| --- | --- | --- |
-| 011 | ゴーストピース | [011-ghost-piece.md](./011-ghost-piece.md) |
-| 012 | ウォールキック | [012-wall-kick.md](./012-wall-kick.md) |
-| 013 | 反時計回り回転とキーカスタマイズ | [013-ccw-keys.md](./013-ccw-keys.md) |
-| 014 | サウンド / BGM | [014-sound.md](./014-sound.md) |
-| 015 | コンボ / スペシャルボーナス | [015-combo-bonus.md](./015-combo-bonus.md) |
-| 016 | 統計と結果画面 | [016-stats.md](./016-stats.md) |
-| 017 | 難易度モード | [017-difficulty-modes.md](./017-difficulty-modes.md) |
-| 018 | オンラインランキング | [018-leaderboard.md](./018-leaderboard.md) |
-| 019 | モバイル / タッチ操作 | [019-touch-mobile.md](./019-touch-mobile.md) |
-| 020 | DAS / ARR 入力カスタマイズ | [020-das-arr.md](./020-das-arr.md) |
-| 021 | テーマとカラーカスタマイズ | [021-themes.md](./021-themes.md) |
-| 022 | 多言語対応(日本語 / 英語) | [022-i18n.md](./022-i18n.md) |
+| # | ステータス | タイトル | ファイル |
+| --- | --- | --- | --- |
+| 011 | ⬜ 未着手 | ゴーストピース | [011-ghost-piece.md](./011-ghost-piece.md) |
+| 012 | ⬜ 未着手 | ウォールキック | [012-wall-kick.md](./012-wall-kick.md) |
+| 013 | ⬜ 未着手 | 反時計回り回転とキーカスタマイズ | [013-ccw-keys.md](./013-ccw-keys.md) |
+| 014 | ⬜ 未着手 | DAS / ARR 入力カスタマイズ | [014-das-arr.md](./014-das-arr.md) |
+| 015 | ⬜ 未着手 | サウンド / BGM | [015-sound.md](./015-sound.md) |
+| 016 | ⬜ 未着手 | コンボ / スペシャルボーナス | [016-combo-bonus.md](./016-combo-bonus.md) |
+| 017 | ⬜ 未着手 | 統計と結果画面 | [017-stats.md](./017-stats.md) |
+| 018 | ⬜ 未着手 | 難易度モード | [018-difficulty-modes.md](./018-difficulty-modes.md) |
+| 019 | ⬜ 未着手 | テーマとカラーカスタマイズ | [019-themes.md](./019-themes.md) |
+| 020 | ⬜ 未着手 | 多言語対応(日本語 / 英語) | [020-i18n.md](./020-i18n.md) |
+| 021 | ⬜ 未着手 | モバイル / タッチ操作 | [021-touch-mobile.md](./021-touch-mobile.md) |
+| 022 | ⬜ 未着手 | オンラインランキング | [022-leaderboard.md](./022-leaderboard.md) |
 
 ## Issue の書式
 
@@ -40,6 +51,7 @@
 # <番号>: <タイトル>
 
 **ラベル**: <ラベル>
+**ステータス**: ⬜ 未着手 / 🔄 実装中 / ✅ 完了
 **関連仕様**: spec.md §<章>
 
 ## 概要
